@@ -2,11 +2,6 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import '../services/token_storage.dart';
-<<<<<<< HEAD
-import '../services/api_config.dart';
-
-=======
->>>>>>> 9a6e891ad6fbd7555b9e02f30ece2891709ec276
 
 class AnimalFeaturePage extends StatefulWidget {
   const AnimalFeaturePage({super.key});
@@ -16,11 +11,7 @@ class AnimalFeaturePage extends StatefulWidget {
 }
 
 class _AnimalFeaturePageState extends State<AnimalFeaturePage> {
-<<<<<<< HEAD
-  final String baseUrl = ApiConfig.baseUrl;
-=======
   final String baseUrl = "http://10.19.169.17:5000";
->>>>>>> 9a6e891ad6fbd7555b9e02f30ece2891709ec276
 
   bool loading = false;
   List animals = [];
